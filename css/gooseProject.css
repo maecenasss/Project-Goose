@@ -1,0 +1,298 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.main-page {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 34px;
+    margin-bottom: 58px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-text {
+    margin-left: 18px;
+}
+
+.bdGoose-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #1B1D1F;
+}
+
+.bdGoose-container {
+    background: #FFFFFF;
+    padding: 60px 56px;
+    align-self: center;
+}
+
+.bdGoose-greating {
+    font-weight: 600;
+    font-size: 16px;
+    color: #1B1D1F;
+    margin-bottom: 16px;
+}
+
+.bdGoose-start-text {
+    font-weight: 600;
+    font-size: 24px;
+    color: #FF6B0A;
+    margin-bottom: 48px;
+}
+
+.bdGoose-descr {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1B1D1F;
+    margin: 24px 0 48px 0;
+}
+
+.bdGoose-launch {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.mainPageRow {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.bdGoose-main-img {
+    align-self:flex-end;
+}
+
+.gus-facts {
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.ukr-logo {
+    color: #F2CD13;
+}
+
+.gus-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #1B1D1F;
+}
+
+.gus-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1B1D1F;
+    width: 875px;
+}
+
+.gus-facts-container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gus-facts-item {
+    width: 30%;
+}
+
+.gus-facts-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #1B1D1F;
+    margin: 12px 0 32px 0;
+}
+
+.gus-facts-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    width: 280px;
+    }
+
+.gus-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.gus-footer-bgd {
+    padding: 72px 0;
+    background: linear-gradient(270deg, #C1E8FF 0%, #FFFFFF 100%);
+    width: 1170px;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gus-footer-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #1B1D1F;
+    margin: 16px 0;
+}
+
+.gus-footer-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+    width: 875px;
+    text-align: center;
+}
+
+.modal-bgd {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(27, 29, 31, 70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal-form {
+    padding: 32px 92px 60px 92px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.modal-form-container {
+    padding: 32px 92px 60px 92px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.modal-form-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    margin: 32px 0 12px 0;
+}
+
+.modal-form-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.modal-form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.modal-field-name {font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+#user-name {
+    background: #FFFFFF;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    width: 374px;
+    height: 48px;
+}
+
+#user-email {
+    background: #FFFFFF;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    width: 374px;
+    height: 48px;
+}
+
+.modal-field-input {
+    background: #FFFFFF;
+    border: 1px solid #005BBB;
+    border-radius: 8px;
+    width: 374px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color:#000000;
+    padding: 4px 8px;   
+}
+
+.modal-form-btn {
+    width: 172px;
+    height: 48px;
+    background: #FF6B0A;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    margin-top: 24px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    color: rgba(27, 29, 31, 1);
+}
+
+.modal-descr {
+    margin-bottom: 0;
+}
+
+.modal-active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+
+
+
+
